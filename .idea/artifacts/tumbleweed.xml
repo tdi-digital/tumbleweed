@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact name="tumbleweed">
+    <output-path>$PROJECT_DIR$/ebin</output-path>
+    <root id="root" />
+  </artifact>
+</component>
