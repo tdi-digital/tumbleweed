@@ -1,0 +1,19 @@
+{application, tumbleweed,
+ [
+  {description, "Local REST server"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  public_key,
+                  ssl,
+                  ranch,
+                  cowlib,
+                  cowboy
+                 ]},
+  {mod, {tumbleweed_app, []}},
+  {env, []}
+ ]}.

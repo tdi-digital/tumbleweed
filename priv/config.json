@@ -1,0 +1,24 @@
+{
+  "rest": {
+    "rest_server": "https://s3.amazonaws.com/bluesoft-cosmos",
+    "product_image": "/products/?"
+  },
+
+  "sunset": {
+    "show_product_image": true,
+    "show_bars":          true,
+    "primary_color":      "#004400",
+    "secondary_color":    "#FF7700"
+  },
+
+  "product_query": "SELECT descricao as description, 100.99 as price FROM produto WHERE ean = ? LIMIT 1",
+
+  "local_source": {
+    "server_type":  "test",
+    "host":         "192.168.1.110",
+    "port":         3306,
+    "user":         "root",
+    "password":     "root",
+    "base":         "buscaprecoapi_development"
+  }
+}
